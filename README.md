@@ -32,6 +32,14 @@ cmake ..
 cmake --build . --config Release  
 and it should be done.
 
+Have also built and run it in Ubuntu linux 14.04 using  
+$ cd build  
+$ cmake ..  
+$ make  
+
+The beauty of CMake is that it supports a wide range of 'native' build formats, as does 
+qmake...
+
 ## Runtime
 
 Naturally the full set of Qt runtime DLLS must be available in the PATH environment 
